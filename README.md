@@ -7,6 +7,7 @@ zk研究者，工程师和专业爱好者
 - zkmesh（zkhack）：https://substack.com/@zkmesh
 - Taiko的双周报：https://taiko.mirror.xyz/
 - Zprize：https://therollup.beehiiv.com/authors/d7fac537-5954-443a-a989-c729059b1ba9
+
 不错的blog
 - ZKSECURITY：https://zksecurity.xyz/blog/
 - cryptologie：https://www.cryptologie.net/  
