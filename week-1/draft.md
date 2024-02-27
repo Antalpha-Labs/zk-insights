@@ -21,14 +21,16 @@ $p=2^{31}-1$, our preliminary benchmarks indicate a speed-up by a factor of $1.4
  的传统STARK相比，速度提升了 1.4
  倍。
 
-https://eprint.iacr.org/2024/278
+- [Paper](https://eprint.iacr.org/2024/278)
 
 
 ### ZKP2P
 
 这个项目来源第312期的Zero Knowledge Podcast， 这个项目利用了Venmo的支付确认邮件的DKIM签名，用来证明SHA256、电子邮件正则表达式和RSA。这里有趣的地方在于他们利用正则表达式提取出关注的数据片段（价格），并用 zk regex 证明这个数据片段在那封来自venmo的电子邮件中。
 
-https://github.com/zkp2p/zk-p2p
+- [zkp2p github](https://github.com/zkp2p/zk-p2p)
+
+- [zk podcast 312](https://zeroknowledge.fm/312-2/)
 
 
 ### SP1 Reth
@@ -37,8 +39,8 @@ SP1 Reth是一个100%开源的POC，展示了Rollup 方案如何使用SP1构建�
 
 ![benchamrk](https://blog.succinct.xyz/content/images/size/w1600/2024/02/FINALBENCHMARKS.png)
 
-https://blog.succinct.xyz/sp1-reth/
-https://github.com/succinctlabs/sp1-reth
+- [sp1 reth blog](https://blog.succinct.xyz/sp1-reth/)
+- [github](https://github.com/succinctlabs/sp1-reth)
 
 
 ### ZKBank
@@ -47,6 +49,6 @@ zkBank 是 zkSecurity的 David 发布的基于gnark框架的一个 challenge。�
 
 > Alice is a sneaky one, she's been trying to send more than what she has to Bob's account. Good thing that we use zero-knowledge proof to enforce the integrity of our transfer. We just want to make sure that Bob can get 100,000 worth of coins or more. Can you help us verify Alice's proof?
 
-https://github.com/zksecurity/zkBank
+[github](https://github.com/zksecurity/zkBank)
 
 
