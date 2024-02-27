@@ -1,7 +1,9 @@
 ## Highlights
 
 ### Circle STARKs
+
 Traditional STARKs require a cyclic group of a smooth order in the field. This allows efficient interpolation of points using the FFT algorithm, and writing constraints that involve neighboring rows. The Elliptic Curve FFT (ECFFT, Part I and II) introduced a way to make efficient STARKs for any finite field, by using a cyclic group of an elliptic curve. 
+
 传统的STARKs需要在域中具有平滑阶数的循环群。这样可以使用FFT算法高效地插值点，并编写涉及相邻行的约束条件。椭圆曲线FFT（ECFFT，第一部分和第二部分）引入了一种使用椭圆曲线的循环群来制作任何有限域的高效STARKs的方法。
 
 We show a simpler construction in the lines of ECFFT over the circle curve $x^2 + y^2 = 1$
