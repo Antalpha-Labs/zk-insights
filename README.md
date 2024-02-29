@@ -3,6 +3,9 @@
 ### 定位
 zk研究者，工程师和专业爱好者
 
+### 整理规则
+社区有组织小组做整理，也欢迎大家提pr加入到每周更新，推荐自己看到的更新，并附上简介和link。
+
 ### 现有信息源
 - zkmesh（zkhack）：https://substack.com/@zkmesh
 - Taiko的双周报：https://taiko.mirror.xyz/
