@@ -21,3 +21,5 @@ zk研究者，工程师和专业爱好者
 
 可以借鉴的newsletter9
 Bitcoin Optech: https://github.com/bitcoinops/bitcoinops.github.io/tree/master/_posts/zh/newsletters
+
+每篇周报 bounty 为 350rmb
