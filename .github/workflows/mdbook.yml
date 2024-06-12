@@ -2,19 +2,12 @@
 #
 # To get started with mdBook see: https://rust-lang.github.io/mdBook/index.html
 #
-name: Deploy z2o-k7e to Pages
+name: Deploy mdBook site to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-    paths:
-      - "src/**"
-      - "po/**"
-      - "theme/**"
-      - "justfile"
-      - "book.toml"
-      - .github/workflows/mdbook.yml
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,31 +28,23 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      MDBOOK_VERSION: 0.4.36
     steps:
-      - uses: actions/checkout@v3
-
-      # Init build environment
-      - name: Install just
-        run: |
-          curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | sudo bash -s -- --to /bin
-      - name: Install cargo
+      - uses: actions/checkout@v4
+      - name: Install mdBook
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
           rustup update
-      - name: Init build environment
-        run: just init-builder
-
-      # Build
-      - name: Build with mdBook
-        run: just build
-
-      # Upload artifact for Github pages
+          cargo install --version ${MDBOOK_VERSION} mdbook
+          cargo install mdbook-katex
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
-
+        uses: actions/configure-pages@v5
+      - name: Build with mdBook
+        run: mdbook build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./book
 
@@ -73,4 +58,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
