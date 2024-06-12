@@ -1,0 +1,43 @@
+[book]
+authors = ["Kurt Pan"]
+language = "en"
+multilingual = false
+src = "post"
+title = "ZK Insights"
+
+[preprocessor]
+
+[preprocessor.katex]
+after = ["links"]
+macros = "macros.txt" # ref from https://github.com/Trapdoor-Tech/Halo2-Book/blob/master/book/macros.txt
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+marker = "[TOC]"
+max-level = 4
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.0"    # do not edit: managed by `mdbook-admonish install`
+after = ["gettext"]
+
+
+[preprocessor.gettext]
+after = ["links"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+
+[output.html]
+mathjax-support = true
+no-section-label = true
+
+
+[output.html.fold]
+enable = true # whether or not to enable section folding
+level = 0     # the depth to start folding
+
+[output.html.search]
+enable = true
