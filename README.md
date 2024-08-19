@@ -57,6 +57,10 @@ Newsletter9 Bitcoin Optech that you can learn from: https://github.com/bitcoinop
   </a>
 </div>
 
+### Donation
+Donate (ERC): 0x18226b84677a7a59D0A498d428feE9208105D0F7
+
+
 ### 🖐️ Contact
 
 Contact us: tg @qijinz
