@@ -1,4 +1,4 @@
-# zk-weekly
+# ZKPunk's ZK Insights
 
 **Read this in other languages: [中文](README_zh.md).**
 
@@ -6,7 +6,7 @@
 ### 🚩Target
 zk researchers, engineers, and enthusiasts.
 
-### 📖 Collation rules 
+### 📖 Collation rules
 The community has an organized group to do the collation, and you are welcome to use the PR to add to the weekly update, recommending updates you have seen with a blurb and a link.
 
 ### 🔗 Available sources
@@ -16,7 +16,7 @@ Posts
 - Taiko's bi-weekly newsletter: https://taiko.mirror.xyz/
 - Zprize: https://therollup.beehiiv.com/authors/d7fac537-5954-443a-a989-c729059b1ba9
 
-Nice blogs 
+Nice blogs
 - ZKSECURITY: https://zksecurity.xyz/blog/
 - cryptologie: https://www.cryptologie.net/
 - LambdaClass: https://blog.lambdaclass.com/

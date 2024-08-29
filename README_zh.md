@@ -1,4 +1,4 @@
-# zk-weekly
+# ZKPunk's ZK Insights
 
 ### 🚩定位
 zk研究者，工程师和专业爱好者
@@ -17,11 +17,11 @@ Posts
 Blogs
 
 - ZKSECURITY：https://zksecurity.xyz/blog/
-- cryptologie：https://www.cryptologie.net/  
-- LambdaClass：https://blog.lambdaclass.com/  
+- cryptologie：https://www.cryptologie.net/
+- LambdaClass：https://blog.lambdaclass.com/
 - 邹老师博客：https://blog.csdn.net/mutourend?type=blog
 
-**论文**： https://eprint.iacr.org/rss/rss.xml 重定向网站： https://research.zkfold.ing/ 
+**论文**： https://eprint.iacr.org/rss/rss.xml 重定向网站： https://research.zkfold.ing/
 
 可以借鉴的newsletter9
 Bitcoin Optech: https://github.com/bitcoinops/bitcoinops.github.io/tree/master/_posts/zh/newsletters
