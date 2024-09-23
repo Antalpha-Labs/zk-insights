@@ -57,6 +57,9 @@ Newsletter9 Bitcoin Optech that you can learn from: https://github.com/bitcoinop
   </a>
 </div>
 
+**If you’d like to receive updates via email, click subscribe. Stay informed and never miss a post!**
+- <https://substack.com/@zkinsights>
+
 ### Donation
 Donate (ERC): 0x18226b84677a7a59D0A498d428feE9208105D0F7
 

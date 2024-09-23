@@ -1,4 +1,5 @@
 # Summary
+- [240922](./weekly-20240922.md)
 - [240915](./weekly-20240915.md)
 - [240908](./weekly-20240908.md)
 - [240901](./weekly-20240901.md)
@@ -27,3 +28,6 @@
 - [240315](./weekly-20240315.md)
 - [240308](./weekly-20240308.md)
 - [240301](./weekly-20240301.md)
+
+**If you’d like to receive updates via email, click subscribe. Stay informed and never miss a post!**
+- <https://substack.com/@zkinsights>
