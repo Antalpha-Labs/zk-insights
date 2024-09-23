@@ -57,6 +57,8 @@ Newsletter9 Bitcoin Optech that you can learn from: https://github.com/bitcoinop
   </a>
 </div>
 
+--- 
+
 **If you’d like to receive updates via email, click subscribe. Stay informed and never miss a post!**
 - <https://substack.com/@zkinsights>
 
