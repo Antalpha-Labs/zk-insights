@@ -66,8 +66,6 @@ And our YouTube channel
 - <https://www.youtube.com/@ZKPunk-Org>
 
 
-### Donation
-Donate (ERC): 0x18226b84677a7a59D0A498d428feE9208105D0F7
 
 
 ### 🖐️ Contact
